@@ -96,8 +96,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: development
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v4
       - name: kind setup
         uses: helm/kind-action@v1
       - run: |
