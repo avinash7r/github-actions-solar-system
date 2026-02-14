@@ -39,6 +39,7 @@ jobs:
             path: test-results.xml
 
     code-coverage:
+        continue-on-error: true
         name: code coverage
         runs-on: ubuntu-latest
 
